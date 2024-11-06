@@ -52,7 +52,7 @@ while True:
     if command == "learn":
         while True:
             os.system('cls')
-            print(f"percent learned: {get_percentage_learned()[0]}% ({get_percentage_learned()[1]}/{len(terms_only)})")
+            print(f"percent learned: {get_percentage_learned()[0]}% ({get_percentage_learned()[1]}/{len(terms_only)}) | hint: <h>")
             random_index = random.randint(0, len(terms_only)-1)
             while True:
                 random_index = random.randint(0, len(terms_only)-1)
@@ -68,7 +68,7 @@ while True:
                     print("correct!")
                     correct = True
                 else:
-                    print(f"incorrect! the answer is: {terms_only[random_index]}")
+                    print(f"incorrect! the answer is: {terms_only[random_index]}\nactually correct? input <c> to mark as correct")
                 learn_command = input()
                 if learn_command == "c" or correct:
                     change_learned_line(random_index, 1)
