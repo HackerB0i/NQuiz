@@ -6,3 +6,6 @@ the default setlist is some AP world history terms (run through chatgpt with som
 custom terms should be formatted something like **term:definition**
 
 answers are checked in lowercase.
+
+whether you got a term right or not is stored in **learned.txt**. this can be reset.
+
