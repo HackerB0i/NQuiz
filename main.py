@@ -77,7 +77,7 @@ while True:
                     print("correct!")
                     correct = True
                 else:
-                    print(f"incorrect! the answer is: {terms_only[random_index]}")
+                    print(f"incorrect! the answer is: {terms_only[random_index]}\nactually correct? input <c> to mark as correct")
                 learn_command = input()
                 if learn_command == "c" or correct:
                     change_learned_line(random_index, 1)
