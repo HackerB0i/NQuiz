@@ -9,3 +9,4 @@ answers are checked in lowercase.
 
 whether you got a term right or not is stored in **learned.txt**. this can be reset.
 
+to disable hints, change **disable_hints** in **settings.json** to true.
